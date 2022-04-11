@@ -1,3 +1,5 @@
+@use "./variables.module" as vars;
+
 // styles normalization
 
 *,
@@ -30,4 +32,18 @@ button {
 
 address {
   font-style: normal;
+}
+
+// layout
+.max-width {
+	width: 100%;
+	max-width: vars.$max-width;
+	margin-left: auto;
+	margin-right: auto;
+	padding-right: 1.25rem;
+	padding-left: 1.25rem;
+	@include mix.from(480px) {
+		padding-right: 2rem;
+		padding-left: 2rem;
+	}
 }
