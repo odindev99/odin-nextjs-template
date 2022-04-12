@@ -31,5 +31,9 @@
   },
   "prettier": {
     "semi": false
+  },
+  "engines": {
+    "npm": "please-use-yarn",
+    "yarn": ">= 1.22.18"
   }
 }
