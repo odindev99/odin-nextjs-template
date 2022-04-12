@@ -11,4 +11,12 @@ $breakpoints: (
 	// < Laptops, Desktops and Extra large screens
 );
 
+// Variables de apilamineto z-index scss
+$z-back: -10;
+$z-normal: 1;
+$z-tooltip: 10;
+$z-fixed: 100;
+$z-modal: 1000;
+
+// Layout
 $max-width: 1300px;
